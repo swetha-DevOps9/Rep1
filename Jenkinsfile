@@ -11,5 +11,10 @@ pipeline {
                 echo 'first build on Rep1'
             }
         }
+        stage ('Deploy') {
+            steps{
+                echo 'first deploy on Rep1'
+            }
+        }
     }
 }
